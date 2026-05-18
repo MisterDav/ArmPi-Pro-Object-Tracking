@@ -1,0 +1,27 @@
+description: Ultralytics YOLO_primitives model trained on /kaggle/working/datasets/data.yaml
+author: Ultralytics
+date: '2026-04-08T18:30:17.492591'
+version: 8.4.30
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: red cube
+  1: blue cube
+  2: green cube
+  3: red sphere
+  4: blue sphere
+  5: green sphere
+  6: red cylinder
+  7: blue cylinder
+  8: green cylinder
+args:
+  batch: 1
+  half: true
+channels: 3
+end2end: false
